@@ -6,7 +6,7 @@ on:
 jobs:
   gerar_imagem_job:
     runs-on: ubuntu-latest
-    name: Construindo uma imaegme e enviando ao DockerHub
+    name: Construindo uma imagem e enviando ao DockerHub
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
